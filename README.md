@@ -20,13 +20,14 @@ System Requirements:
  
 3.Windows Phone SDK
 
-Prior Checks: 
+Prior Checks:
+
 We have two plugin dll of Push Notifcation for Windows Phone one is FakeDll which can be found from below link
 https://github.com/rahulpshephertz/App42_PushPlugin_Sample_Unity_Windows/tree/master/Push_Notification_Plugin/UnityPluginForWindowsPhone/FakeDLL/bin/Release
-Put Fake Dll is Asset folder of Unity.
+Put Fake Dll is Asset folder.
 Now take the real dll from below link
 https://github.com/rahulpshephertz/App42_PushPlugin_Sample_Unity_Windows/tree/master/Push_Notification_Plugin/UnityPluginForWindowsPhone/RealDLL/Bin/Release
-And put this dll in Assets/Plugin/Wp8 folder
+and put this dll in Assets/Plugin/Wp8 folder
 
 Before building Windows Phone application please review following things :
 You have attached UseMyPlugin.cs file on MainCamera.
