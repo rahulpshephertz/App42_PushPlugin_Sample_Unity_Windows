@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Phone
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App42PushPluginWP8", "RealDLL\App42PushPluginWP8.csproj", "{11572E43-DE51-4A02-B5E4-0A72E5F929EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App42PushPlugin", "FakeDLL\App42PushPlugin.csproj", "{5D55430D-30A7-453E-8CEF-2A1639FBA839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Debug|ARM.Build.0 = Debug|ARM
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Debug|x86.ActiveCfg = Debug|x86
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Debug|x86.Build.0 = Debug|x86
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Release|ARM.ActiveCfg = Release|ARM
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Release|ARM.Build.0 = Release|ARM
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Release|x86.ActiveCfg = Release|x86
+		{11572E43-DE51-4A02-B5E4-0A72E5F929EF}.Release|x86.Build.0 = Release|x86
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Release|ARM.ActiveCfg = Release|Any CPU
+		{5D55430D-30A7-453E-8CEF-2A1639FBA839}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

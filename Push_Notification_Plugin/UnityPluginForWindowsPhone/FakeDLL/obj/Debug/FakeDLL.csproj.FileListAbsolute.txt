@@ -1,0 +1,5 @@
+D:\Projects\Test\UnityPluginForWindowsPhone\FakeDLL\bin\Debug\UnityPluginForWindowsPhone.dll
+D:\Projects\Test\UnityPluginForWindowsPhone\FakeDLL\bin\Debug\UnityPluginForWindowsPhone.pdb
+D:\Projects\Test\UnityPluginForWindowsPhone\FakeDLL\obj\Debug\FakeDLL.csprojResolveAssemblyReference.cache
+D:\Projects\Test\UnityPluginForWindowsPhone\FakeDLL\obj\Debug\UnityPluginForWindowsPhone.dll
+D:\Projects\Test\UnityPluginForWindowsPhone\FakeDLL\obj\Debug\UnityPluginForWindowsPhone.pdb

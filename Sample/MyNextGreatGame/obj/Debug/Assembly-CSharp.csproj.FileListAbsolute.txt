@@ -1,0 +1,17 @@
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\Microsoft.Phone.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\Microsoft.Phone.Interop.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\System.Net.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\System.Windows.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\UnityEditor.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\UnityEngine.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\WindowsPushPluginForUnity.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\Mono.Cecil.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\nunit.framework.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\Unity.DataContract.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Temp\bin\Debug\WindowsPushPluginForUnity.pdb
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\obj\Debug\Assembly-CSharp.dll
+E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\obj\Debug\Assembly-CSharp.pdb

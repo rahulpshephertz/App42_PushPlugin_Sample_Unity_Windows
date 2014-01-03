@@ -1,0 +1,4 @@
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\bin\Release\UnityPluginForWindowsPhone.dll
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\bin\Release\UnityPluginForWindowsPhone.pdb
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\obj\Release\UnityPluginForWindowsPhone.dll
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\obj\Release\UnityPluginForWindowsPhone.pdb

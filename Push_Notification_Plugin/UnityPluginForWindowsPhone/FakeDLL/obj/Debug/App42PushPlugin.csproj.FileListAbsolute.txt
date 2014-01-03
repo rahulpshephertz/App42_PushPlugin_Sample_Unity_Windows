@@ -1,0 +1,5 @@
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\bin\Debug\UnityPluginForWindowsPhone.dll
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\bin\Debug\UnityPluginForWindowsPhone.pdb
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\obj\Debug\App42PushPlugin.csprojResolveAssemblyReference.cache
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\obj\Debug\UnityPluginForWindowsPhone.dll
+E:\UnityPluginForWindowsPhone\UnityPluginForWindowsPhone\FakeDLL\obj\Debug\UnityPluginForWindowsPhone.pdb
