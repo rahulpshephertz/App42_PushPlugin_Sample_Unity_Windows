@@ -89,5 +89,17 @@ Send PushNotification to all users using Unity App42 SDK :
 	public void sendPushToAll(string msg){
 		App42API.BuildPushNotificationService().SendPushMessageToAll(msg,new Callback());	
 }
+public class Callback : App42CallBack{
+	public static string response = "";
+	
+	public void OnSuccess(object obj){
+		response = obj.ToString();
+	}
+	
+	public void OnException(Exception ex){
+		Debug.Log("EDITEOR---"+ ex.ToString());
+		response=ex.ToString();
+	}
+}
 ```
 
