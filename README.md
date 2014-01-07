@@ -7,9 +7,14 @@ Once a game registered for Push Notification Unity3D game get Notification messa
 This is a sample Windows Phone Unity 3D app is made by using App42 back-end platform. It uses Push Notification of App42 platform. Here are the few easy steps to run this sample app.
 
 __Register with App42 platform__.
-Do registeration on AppHQ console,get login and create an app from App Manager TabG.
-Go to Application Keys and Copy the Api key and secret keys.
-Download the Unity project from here and open asset folder.Open Constants.cs file in sample app and put Api and Secret key.
+
+Do registeration on [AppHQ console](!https://apphq.shephertz.com/register/app42Login),get login and create an app from App Manager Tab.
+
+Go to the "application keys" and get Api key and secret keys.
+
+Download the Unity project from here and open asset folder.
+
+Open Constants.cs file in sample app and put api key and secret key.
 
 __System Requirements__:
 
