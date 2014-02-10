@@ -39,7 +39,7 @@ Put [Real Dll](!https://github.com/rahulpshephertz/App42_PushPlugin_Sample_Unity
 Before building Windows Phone application dont forget to attach UseMyPlugin.cs file on MainCamera.
 You can also replace Push Notification icon with your icon in \Assets\plugins\Android\assets folder with same name and same type.
 
-After Building Windows Phone Project from Unity,We will have need to Modify WMAppManifest file
+After Building Windows Phone Project from Unity,We will have to Modify WMAppManifest file
 Add capabilities 
   <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
   <Capability Name="ID_CAP_PROXIMITY" />
