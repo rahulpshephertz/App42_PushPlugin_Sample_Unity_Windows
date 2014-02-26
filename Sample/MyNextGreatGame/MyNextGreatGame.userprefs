@@ -1,19 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UseMyPlugin.cs">
     <Files>
+      <File FileName="Assets\Constants.cs" Line="1" Column="1" />
       <File FileName="Assets\UseMyPlugin.cs" Line="1" Column="1" />
+      <File FileName="e:\GitHub\App42_PushPlugin_Sample_Unity_Windows\Sample\MyNextGreatGame\Assets\Callback.cs" Line="8" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Assets\UseMyPlugin.cs" line="24" />
-      <Breakpoint file="E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Assets\UseMyPlugin.cs" line="35" />
-      <Breakpoint file="E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Assets\UseMyPlugin.cs" line="55" />
-      <Breakpoint file="E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Assets\UseMyPlugin.cs" line="45" />
-      <Breakpoint file="E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Assets\UseMyPlugin.cs" line="40" />
-      <Breakpoint file="E:\Unity_Push_Notification\WP8PluginExample-MyNextGreatGame\MyNextGreatGame\Assets\UseMyPlugin.cs" line="20" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -3,8 +3,9 @@ using System.Collections;
 
 public class Constants {
 
-	public const string ApiKey ="Your Api key";
-	public const string SecretKey="Your Secret key";
-	public const string UserId="User Id";
-	public const string deviceType="WP8";
+	public const string ApiKey ="";
+	public const string SecretKey="";
+	public static string UserId="User name";
+	public static string RemoteUserid="Remote User Name";
+	public const string deviceType="WP7";
 }

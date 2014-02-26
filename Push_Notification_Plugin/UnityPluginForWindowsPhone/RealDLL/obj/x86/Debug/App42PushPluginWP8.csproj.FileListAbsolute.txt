@@ -1,0 +1,4 @@
+E:\GitHub\App42_Push_Sample_Unity_Windows\Push_Notification_Plugin\UnityPluginForWindowsPhone\RealDLL\Bin\x86\Debug\UnityPluginForWindowsPhone.dll
+E:\GitHub\App42_Push_Sample_Unity_Windows\Push_Notification_Plugin\UnityPluginForWindowsPhone\RealDLL\Bin\x86\Debug\UnityPluginForWindowsPhone.pdb
+E:\GitHub\App42_Push_Sample_Unity_Windows\Push_Notification_Plugin\UnityPluginForWindowsPhone\RealDLL\obj\x86\Debug\UnityPluginForWindowsPhone.dll
+E:\GitHub\App42_Push_Sample_Unity_Windows\Push_Notification_Plugin\UnityPluginForWindowsPhone\RealDLL\obj\x86\Debug\UnityPluginForWindowsPhone.pdb
