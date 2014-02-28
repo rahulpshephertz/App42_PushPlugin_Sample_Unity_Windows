@@ -1,3 +1,0 @@
-App42_Unity3D_SDK_WP8_2.2.dll
-Assembly-CSharp.dll
-UnityPluginForWindowsPhone.dll

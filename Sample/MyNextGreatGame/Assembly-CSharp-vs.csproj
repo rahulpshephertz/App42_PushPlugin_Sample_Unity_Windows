@@ -49,6 +49,9 @@
      <Compile Include="Assets\Callback.cs" />
      <Compile Include="Assets\Constants.cs" />
      <Compile Include="Assets\UseMyPlugin.cs" />
+ <Reference Include="App42_Unity3D_SDK_WP8_2.0">
+ <HintPath>Assets\App42_Unity3D_SDK_WP8_2.0.dll</HintPath>
+ </Reference>
  <Reference Include="App42_Unity3D_SDK_WP8_2.2">
  <HintPath>Assets\App42_Unity3D_SDK_WP8_2.2.dll</HintPath>
  </Reference>
