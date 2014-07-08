@@ -20,7 +20,7 @@ namespace UnityPluginForWindowsPhone
         /// <param name="channelName"></param>
         /// <param name="registrationCallBack">Registration Callback with parameter </param>
         /// <param name="messageCallback"></param>
-        public void CreatePushChannel(String channelName,bool IfEnableTileNotifcation,PushServiceRegistrationCallback registrationCallBack, PushServiceMessageCallback messageCallback)
+        public void CreatePushChannel(String channelName,PushServiceRegistrationCallback registrationCallBack, PushServiceMessageCallback messageCallback)
         { 
             PushServiceRegistrationCallback sevice=new PushServiceRegistrationCallback(registrationCallBack);
             new Thread(() => sevice("Got Wrong Dll", false)).Start();

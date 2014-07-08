@@ -35,7 +35,9 @@ public class UseMyPlugin : MonoBehaviour
             {
                 case NotificationType.TOAST:
 			        //To send Toast Push Message
-                    App42API.BuildPushNotificationService().SendPushMessageToUser(userName, "msg", new Callback()); break;
+			App42API.BuildPushNotificationService().SendPushMessageToUser(userName, "msg", new Callback(){
+
+			}); break;
                 case NotificationType.TILE:
                     Tile tile = new Tile();
                     tile.title = "Tile";
@@ -126,19 +128,19 @@ public class UseMyPlugin : MonoBehaviour
         GUI.Label(m_ScreenRectangle, message, m_GUIStyle);
 
         Constants.UserId = GUI.TextField(new Rect(5, 150, 300, 50), Constants.UserId);
-        mNotificationType = NotificationType.TILE;
-		#if UNITY_WP8
+        mNotificationType = NotificationType.TOAST;		
 		if (GUI.Button (new Rect (220, 220, 200, 50), "Register")) 
 		{
-		 switch (mNotificationType)
+			pushService.CreatePushChannel (Constants.UserId, PushChannelRegistrationCallback, PushChannelMessageCallback);
+		 /*switch (mNotificationType)
 			{
-				case NotificationType.TOAST:
+		        case NotificationType.TOAST:
 					pushService.CreatePushChannel (Constants.UserId, false, PushChannelRegistrationCallback, PushChannelMessageCallback);
 					break;
 			case NotificationType.TILE:
 				   pushService.CreatePushChannel (Constants.UserId, true, PushChannelRegistrationCallback, PushChannelMessageCallback);
 				     break;
-			}
+			}*/
 		}
 		if (GUI.Button (new Rect (5, 220, 150, 50), "App42 Login")) 
 		{	
@@ -155,11 +157,15 @@ public class UseMyPlugin : MonoBehaviour
         {
             sendPushToAll(myMsg);
         }
-		#endif
-        if (GUI.Button(new Rect(5, 470, 300, 50), "Exit game"))
-        {
-            Application.Quit();
-        }
+
+		if (GUI.Button(new Rect(5, 470, 300, 200), Callback.response))
+		{
+
+		}
+        //if (GUI.Button(new Rect(5, 470, 300, 50), "Exit game"))
+       // {
+         //   Application.Quit();
+       // }
     } 
 }
 public class NotificationType

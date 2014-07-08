@@ -22,7 +22,6 @@ namespace UnityPluginForWindowsPhone
         public delegate void PushServiceMessageCallback(object sender, Dictionary<String, String> response);
         private PushServiceRegistrationCallback mRegistrationCallback = null;
         private PushServiceMessageCallback mMessageCallback;
-        NotificationType mNotificationType = NotificationType.TOAST;
         public App42PushService()
         {
 
@@ -33,7 +32,7 @@ namespace UnityPluginForWindowsPhone
         /// <param name="channelName"></param>
         /// <param name="registrationCallBack">Registration Callback with parameter </param>
         /// <param name="messageCallback"></param>
-        public void CreatePushChannel(String channelName,bool IfEnableTileNotifcation, PushServiceRegistrationCallback registrationCallBack, PushServiceMessageCallback messageCallback)
+        public void CreatePushChannel(String channelName, PushServiceRegistrationCallback registrationCallBack, PushServiceMessageCallback messageCallback)
         {
             /// Holds the push channel that is created or found.
             HttpNotificationChannel pushChannel;
@@ -41,14 +40,7 @@ namespace UnityPluginForWindowsPhone
             mMessageCallback = messageCallback;
             // Try to find the push channel.
             pushChannel = HttpNotificationChannel.Find(channelName);
-            if (IfEnableTileNotifcation)
-            {
-                mNotificationType = NotificationType.TILE;
-            }
-            else
-            {
-                mNotificationType = NotificationType.TOAST;
-            }
+         
             // If the channel was not found, then create a new connection to the push service.
             if (pushChannel == null)
             {
@@ -58,14 +50,9 @@ namespace UnityPluginForWindowsPhone
                 pushChannel.ChannelUriUpdated += new EventHandler<NotificationChannelUriEventArgs>(PushChannel_ChannelUriUpdated);
                 pushChannel.ErrorOccurred += new EventHandler<NotificationChannelErrorEventArgs>(PushChannel_ErrorOccurred);
                 pushChannel.Open();
-                switch (mNotificationType)
-                {
-                    case NotificationType.TOAST: pushChannel.ShellToastNotificationReceived += new EventHandler<NotificationEventArgs>(PushChannel_ShellToastNotificationReceived);
-                         pushChannel.BindToShellToast(); break;
-                    case NotificationType.TILE: pushChannel.BindToShellTile(); break;
-                    case NotificationType.RAW: break;
-                }         
-
+                pushChannel.ShellToastNotificationReceived += new EventHandler<NotificationEventArgs>(PushChannel_ShellToastNotificationReceived);
+                pushChannel.BindToShellToast();
+                pushChannel.BindToShellTile(); 
             }
             else
             {
@@ -81,17 +68,9 @@ namespace UnityPluginForWindowsPhone
                 {
                     pushChannel.UnbindToShellToast();
                 }
-                switch (mNotificationType)
-                 {
-                     case NotificationType.TOAST:
-                           // pushChannel.ShellToastNotificationReceived -= new EventHandler<NotificationEventArgs>(PushChannel_ShellToastNotificationReceived);
-                            pushChannel.ShellToastNotificationReceived += new EventHandler<NotificationEventArgs>(PushChannel_ShellToastNotificationReceived);
-                            pushChannel.BindToShellToast();
-                            break;
-                     case NotificationType.TILE:
-                          pushChannel.BindToShellTile(); break;
-                     case NotificationType.RAW: break;
-                 }             
+                pushChannel.ShellToastNotificationReceived += new EventHandler<NotificationEventArgs>(PushChannel_ShellToastNotificationReceived);
+                pushChannel.BindToShellToast();
+                pushChannel.BindToShellTile();
             }
         }
         /// <summary>
